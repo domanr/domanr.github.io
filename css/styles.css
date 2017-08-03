@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300&subset=latin-ext');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.picture {
+    float: left;
+    margin: 10px 20px 0px 20px;
+}
+
+.content {
+    text-align: justify;
+    margin: 20px;
+}
