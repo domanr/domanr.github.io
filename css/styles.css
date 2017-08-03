@@ -5,15 +5,22 @@ body {
     font-size: 16px;
     color: black;
     background-color: lightgoldenrodyellow;
+    line-height: 1.5;
+}
+
+@media(max-width:900px) {
+    body{
+        font-size: 150%;
+    }
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 200%;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 150%;
     font-weight: bold;
 }
 
