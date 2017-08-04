@@ -8,12 +8,6 @@ body {
     line-height: 1.5;
 }
 
-@media(max-width:900px) {
-    body{
-        font-size: 120%;
-    }
-}
-
 h1 {
     font-size: 200%;
     font-weight: bold;
@@ -27,6 +21,8 @@ h2 {
 .picture {
     float: left;
     margin: 10px 20px 0px 20px;
+    width: 30%;
+    height: auto;
 }
 
 .content {
