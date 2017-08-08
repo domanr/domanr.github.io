@@ -7,6 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FitCoder</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		@media (max-width: 639px) {
+    		#webserver {
+        		width: 100%;
+        		height: auto;
+    		}
+		}
+	</style>
 </head>
 <body>
 	<div class="fullscreen-bg"></div>
@@ -15,15 +23,16 @@
 		<a class="buttonlink" href="projects.html"><div class="button">Projects</div></a>
 		<a class="buttonlink" href="about.html"><div class="button">About</div></a>
 		<a class="buttonlink" href="contact.html"><div class="button">Contact</div></a>
-	</div>
-
+    </div>
+    
 	<!-- Page content start -->
-	<div class="center">
-		<div class="mainlogo">FitCoder</div>
-		<div class="maintext">Software development and fitness</div>
-	</div>
-	<!-- Page content end -->
-
-	<div class="footer horcenter">&copy; 2017, Rajmund Domán</div>
+	<div class="content horcenter">
+        <div>
+			<img id="webserver" src="img/esp8266.jpg" width="600" height="600" title="My webserver">
+		</div>
+    </div>
+    <!-- Page content end -->
+	
+	<div class="footer">&copy; 2017, Rajmund Domán</div>
 </body>
 </html>
