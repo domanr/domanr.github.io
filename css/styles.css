@@ -35,6 +35,7 @@ body {
     background-image: url("../img/background.jpg");
     opacity: 0.4;
     position: fixed;
+    background-size: cover;
     top: 0;
     right: 0;
     bottom: 0;
